@@ -257,10 +257,12 @@
 
 .title {
   text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline dotted;
   color: white;
   margin-bottom: 30px;
   width: 100%;
-  font-size: 2.3em;
+  font-size: 3em;
 }
 
 .button {
@@ -278,6 +280,15 @@
   margin: 5px;
   width: 90%;
 }
+
+.error {
+  color: #f27059;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em;
+}
+
 .button span {
   cursor: pointer;
   display: inline-block;
